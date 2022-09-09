@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  }
+    h1{
+        color: #095797;
+        font-weight: 600;
+    }
+    h2{
+        border: 1px solid #e7eaf6;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 21px;
+        color: #223654;
+    }
+    h1, h2{
+        text-align: center;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 20px 0 10px;
+    }
+    span{
+      color: #38598b;
+    }
+    button{
+        display: block;
+        margin: 20px auto;
+        background-color: #095797;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+        border: none;
+    }
+    button:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    hr{
+      border: 1px solid #e7eaf6;
+      margin-top: 17px;
+    }
+
+    .container{
+        max-width: 600px;
+        display: block;
+        margin: 30px auto;
+        padding: 10px 30px;
+        font-family: Roboto, sans-serif;
+        background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 16px;
+    }
+    .learn-more{
+        color: #095797;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .learn-more:hover{
+        text-decoration: underline;
+        opacity: 0.9;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer a{
+        font-size: 13px;
+        color: #095797;
+    }
+    .footer a:hover{
+        text-decoration: none;
+        opacity: 0.9;
+    }
