@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blueberry 🍇</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        I love Blueberry
+      </h1>
+      <h2>
+        Especially Blueberries from my Garden
+      </h2>
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/133/original/photo-bl.jpg?1659151511" alt="Blueberries" />
+      <hr>
+      <p>
+        <span>Blueberries</span> are a widely distributed and widespread group of perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.
+      </p>
+      <strong><a href="https://en.wikipedia.org/wiki/Blueberry" target="_blank" class="learn-more">
+        Learn more on Wikipedia
+      </a></strong><br />
+      <button class="buy-button">
+        👉 Buy Blueberries
+      </button>
+      <p class="footer">
+        This page was built by<br />
+        <em><a href="#" target="_blank">
+          Oksana Yaner-Meslem
+        </a></em>
+      </p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+
+        if (name.length > 0 && email.length > 0) {
+          alert("Thank you " + name + "! We'll be in touch by email when we have berries.");
+        } else if (name.length <= 0) {
+              alert("You did not enter your name!");
+            } else if (email.length <= 0) {
+                alert("You did not enter your email!");
+              } else {
+                alert("You did not enter your name and email!");
+              }
+            }
+          
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
